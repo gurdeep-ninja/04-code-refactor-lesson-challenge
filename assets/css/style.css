@@ -75,85 +75,84 @@ header nav ul {
 
 header nav ul li {
     display: inline-block; /* Set li items to inline-block (removes breaks) */
-    margin-left: 25px;
+    margin-left: 25px; /* set left margin */
 }
 
 /* Hero Banner */
 
 section.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* set height of hero section */
+    width: 100%; /* make hero section fill width of page */
+    margin-bottom: 25px; /* set margin bottom */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* select background image for hero section */
+    background-size: cover; /* scales the image to fill hero banner */
+    background-position: center; /* position the background image to the center  */
 }
 
 /* Main content block */
 /**********************/
 
 main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /* sets the width of main */
+    display: inline-block; /* make element display inline-block  */
+    margin-left: 20px; /* set a left margin */
 }
 
 /* Article styles */
 /******************/
-
 article {
-    background-color: #0072bb;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    color: #ffffff;
+    background-color: #0072bb; /* sets background image to blue */
+    margin-bottom: 20px; /* set bottom margin */
+    padding: 50px; /* adds padding to all 4 sides */
+    height: 300px; /* set fixed height for element */
+    color: #ffffff; /* set font colour to white */
 }
 
 article img {
-    max-height: 200px;
+    max-height: 200px; /* set article image height */
 }
 
 article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /* set bottom margin */
+    font-size: 36px; /* sets font size */
 }
 
 /* Aside styles */
 
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #2589bd;
+    margin-right: 20px; /* adding a right margin */
+    padding: 20px; /* adding padding all round  */
+    clear: both; /* Clears float element */
+    float: right; /* float side to right side of screen */
+    width: 20%; /* sets width */
+    height: 100%; /* set height of side to fill vertical space  */
+    background-color: #2589bd; /* set article background colour */
 }
 
 aside section {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /* set a bottom margin */
+    color: #ffffff; /* set font colour */
 }
 
 aside h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px; /* sets a bottom margin */
+    text-align: center; /* centers the text */
 }
 
 aside img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block; /* sets display mode of image to block */
+    margin: 10px auto; /* sets botom & top margin, then centers the image */
+    max-width: 150px; /* fixes the width so the image doesn't expand more than specified */
 }
 
 /* Footer syles */
 
 footer {
-    padding: 30px;
-    clear: both;
-    text-align: center;
+    padding: 30px; /* setting all around padding */
+    clear: both; /* clears surrounding floats so this element appears on the next line */
+    text-align: center; /* centers the text */
 }
 
 footer h4 {
-    font-size: 20px;
+    font-size: 20px; /* sets font size */
 }

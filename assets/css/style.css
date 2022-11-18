@@ -1,56 +1,86 @@
+/* Generic styles */
+/******************/
+
+/* Apply defaults to all html elements */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Set box sizing to border-box */
+    padding: 0; /* set padding to zero */
+    margin: 0; /* set margin to zero  */
 }
 
+/* Body style */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* apply colour to whole body */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Main font for whole document */
+}
+/* Link style */
+a {
+    color: #ffffff; /* set active link colour to white */
+    text-decoration: none; /* remove any text-decoration from links */
 }
 
+/* Paragraph style */
+p {
+    font-size: 16px; /* Set font size */
+}
+
+/* Consolidate footer & header font  */
+footer, 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Different font for header & footer */
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Custom class for floating element to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+/* Custom class for floating element to right */
+.float-right {
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+/* Header styling  */
+/*******************/
+
+header {
+    padding: 20px; /* Set padding to 20px applies to all sides*/
+    background-color: #2a607c; /* Set background colour to blue */
+    color: #ffffff; /* Set font colour to white */
 }
 
-p {
-    font-size: 16px;
+header h1 {
+    display: inline-block; /* Make h1 element inline-block */
+    font-size: 48px; /* Set font size */
 }
 
-.hero {
+header h1 .seo {
+    color: #d9dcd6; /* Set font colour to grey */
+}
+
+/* Navigation styling */
+
+header nav {
+    padding-top: 15px; /* Set top padding */
+    margin-right: 20px; /* Set right margin */
+    float: right; /* Float nav to right side */
+    font-size: 20px; /* Set font size */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove the ul style type i.e. no bullet  */
+}
+
+header nav ul li {
+    display: inline-block; /* Set li items to inline-block (removes breaks) */
+    margin-left: 25px;
+}
+
+/* Hero Banner */
+
+section.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,21 +89,37 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Main content block */
+/**********************/
 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Article styles */
+/******************/
+
+article {
+    background-color: #0072bb;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside styles */
+
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,30 +146,14 @@ aside img {
     max-width: 150px;
 }
 
-article {
-    background-color: #0072bb;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer syles */
 
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }

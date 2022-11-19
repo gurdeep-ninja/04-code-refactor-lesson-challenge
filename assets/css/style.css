@@ -80,7 +80,7 @@ header nav ul li {
 
 /* Hero Banner */
 
-section.hero {
+.hero {
     height: 800px; /* set height of hero section */
     width: 100%; /* make hero section fill width of page */
     margin-bottom: 25px; /* set margin bottom */
